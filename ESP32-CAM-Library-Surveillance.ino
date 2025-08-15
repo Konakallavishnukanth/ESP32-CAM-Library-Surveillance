@@ -29,7 +29,7 @@ WebServer server(80);
  
 // Hardcoded login credentials 
 const char* loginUsername = "admin"; 
-const char* loginPassword = "esp32cam"; 
+const char* loginPassword = "password"; 
  
 // Track login state by IP 
 std::set<IPAddress> loggedInClients; 
